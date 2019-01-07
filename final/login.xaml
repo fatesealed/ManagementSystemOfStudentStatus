@@ -1,0 +1,21 @@
+﻿<Window x:Class="final.login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:final"
+        mc:Ignorable="d"
+        Title="login" Height="300" Width="400">
+    <Grid>
+        <Image HorizontalAlignment="Left" Margin="0,0,-5.8,0.4" Width="409" Source="pictures/landscape-mountain-night-1743381.jpg"/>
+        <Grid HorizontalAlignment="Left" Height="206" Margin="49,37,0,0" VerticalAlignment="Top" Width="315" Background="White" Opacity="0.8">
+            <Label Content="UserName"  HorizontalAlignment="Left" Height="27" Margin="10,97,0,0" VerticalAlignment="Top" Width="73"/>
+            <Label Content="PassWord"  HorizontalAlignment="Left" Height="27" Margin="10,129,0,0" VerticalAlignment="Top" Width="73"/>
+            <PasswordBox HorizontalAlignment="Left" Name="password" Height="27" Margin="94,129,0,0" VerticalAlignment="Top" Width="182"/>
+            <TextBox HorizontalAlignment="Left" Height="27" Name="user" Margin="94,97,0,0" VerticalAlignment="Top" Width="182"/>
+            <Label Content="Log in" HorizontalAlignment="Left" Height="64" Margin="83,10,0,0" VerticalAlignment="Top" Width="182" FontSize="36" FontWeight="Bold"/>
+            <Button Content="sign up" HorizontalAlignment="Left" Height="23" Margin="137,169,0,0" VerticalAlignment="Top" Width="60" Click="Button_Click"/>
+            <Button Content="OK" HorizontalAlignment="Left" Height="23" Margin="216,169,0,0" VerticalAlignment="Top" Width="60" Click="Button_Click_1"/>
+        </Grid>
+    </Grid>
+</Window>
