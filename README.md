@@ -1,7 +1,7 @@
 # ManagementSystemOfStudentStatus
 学籍管理系统 数据库相关 数据库使用SqlServer
 
-
+编写环境：VS2017
 
 
 第一次发到github。。。好紧张！
@@ -13,4 +13,5 @@
 用的是WPF框架写的图形界面
 
 数据库文件里面也有
+对了对了。。并没有用EF。。那个文件夹是多余的
 
